@@ -16,5 +16,4 @@ In het het bestand  [index.html](index.html) houd je een overzicht bij van wat j
 Plaats in deze readme een link naar het index bestand op je ma-cloud site:
 http://31515.hosts1.ma-cloud.nl/Javascript-Achievements/
 
-Javascipt knop datum popup:  
-http://31515.hosts1.ma-cloud.nl/Javascript-Achievements/Buttonpopup/
+
