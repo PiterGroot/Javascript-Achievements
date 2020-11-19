@@ -1,0 +1,28 @@
+    <!doctype html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Goedemorgen</title>
+    </head>
+    
+    <body>
+      <h1>Tijd met javaScript</h1>
+      <input type="button" value='click me!' id='myButton'/>
+      <script>
+          let date = new Date();
+          let ButtonID = document.getElementById('myButton');
+          function DisplayAlert() {
+            var newLine = "\r\n"
+            var msg = date;
+            msg += newLine;
+            msg += "Hallo wereld, mijn naam is Piter Groot.";
+            msg += newLine;
+            msg += "Ik ben leerling bij Mediacollege Amsterdam.";
+            alert(msg);
+         }
+          ButtonID.addEventListener('click', ()=>{
+            DisplayAlert();
+          })
+      </script>
+    </body>
+    </html>
