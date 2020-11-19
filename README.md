@@ -4,7 +4,7 @@
 
 [Overzicht alle beschikbare opdrachten](https://trello.com/b/xo5TJzFr/javascript-achievements)
 
-- Fork deze repository door op de "Fork" knop rechtsboven te klikken.
+//- Fork deze repository door op de "Fork" knop rechtsboven te klikken.
 - Dit kopieert DEZE voorbeeld repository naar JOUW Github account.
 - Clone de repository in JOUW account naar je computer via de command line
 - `git clone <de url van JOUW Javascript Achivements repository> Javascript-Achievements`
