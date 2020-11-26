@@ -1,4 +1,4 @@
-![Drag Racing](js.png)
+![JS_logo](js.png)
 
 [Overzicht alle beschikbare opdrachten](https://trello.com/b/xo5TJzFr/javascript-achievements)
 
