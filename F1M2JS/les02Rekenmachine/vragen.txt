@@ -1,0 +1,10 @@
+Wat is een voordeel van strict use:
+Je code moet op een menier geschreven worden, dus het is heel overzichtelijk
+Een nadeel van strict use:
+Als je het niet goed schrijft, krijg je een error.
+
+Wat is hoisting:
+Hoisting in javascript is dat je je variables boven aan zet zodat de scope over alle functies gaat.
+
+Wat is camelCase:
+camelCase wordv vaak gebruikt door bedrijven om codes beter te kunnen lezen. Dus bijvoorbeeld movementspeed = 3;, moet dan geschreven worden als movementSpeed = 4;
