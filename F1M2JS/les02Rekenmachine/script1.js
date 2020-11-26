@@ -35,7 +35,7 @@
     }
     function deel(getal1, getal2){
         let antwoord = getal1 / getal2;
-        if(getal1 <= 0 || getal2 <= 0) {
+        if(getal1 == 0 || getal2 == 0) {
             console.log("delen met nul kan niet");
             delen.innerHTML = "delen met nul kan niet";
         }
