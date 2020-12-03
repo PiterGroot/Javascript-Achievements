@@ -1,3 +1,3 @@
-# F1M2-JS-Javascript-3-Arrays-Txt2speech
+# Live versie
 
-## Demo:  https://schw.hosts1.ma-cloud.nl/javascript/les_3/
+## Op mijn MA site:  http://31515.hosts1.ma-cloud.nl/Javascript-Achievements/Les03VocoderSpeech/index.html
