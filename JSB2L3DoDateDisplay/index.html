@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date display.</title>
+</head>
+<body>
+    <h1>Ik ben geboren op:</h1>
+    <div id="maand">
+        <p>maand<p>
+    </div>
+    <div id="dag">
+        <p>dag<p>
+    </div>
+    <div id="jaar">
+        <p>jaar<p>
+    </div>
+    <script>
+            let day = document.getElementById("dag");
+            let month = document.getElementById("maand");
+            let year = document.getElementById("jaar");
+            
+            toonDatum();
+           function toonDatum(){
+                var datum = new Date(2003, 11, 04);    
+                year.innerHTML = datum.getFullYear();
+                month.innerHTML = datum.getMonth();
+                day.innerHTML = datum.getDay();
+            }
+
+         window.addEventListener('DOMContentLoaded', toonDatum);
+    </script>
+</body>
+</html>
