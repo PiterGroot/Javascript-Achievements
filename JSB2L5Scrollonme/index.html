@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 id="title">Scroll on me</h3>
+
+<script>
+let string = "Scroll on me"
+
+let h = document.getElementById("title");
+h.addEventListener("wheel", ()=>{ h.innerHTML += "!" });
+h.addEventListener("click", ()=>{h.innerHTML = string});
+</script>
+
+</body>
+</html>
