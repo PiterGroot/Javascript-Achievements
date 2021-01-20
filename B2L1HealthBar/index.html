@@ -6,11 +6,11 @@
     <title>Health Bar</title>
 </head>
 <body>
-<meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="100"> at 100/100</meter>
+<meter id="health" min="0" max="100" low="33" high="66" optimum="80" value="100"> at 100/100</meter>
 <button id="button" type="button">Attack!</button>
 <h2 id="text">...</h2>
 <script>
-    let health = document.getElementById("fuel");
+    let health = document.getElementById("health");
     document.getElementById("button").addEventListener("click", ()=>{ health.value -= 10});
     document.getElementById("button").addEventListener("click", ()=>{ 
         if(health.value == 0){
