@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DungeonMaster</title>
+</head>
+<body>
+    <button id="button" type="button">Roll!</button>
+    <h3 id="text">Gegooide getal: </h3>
+<script>
+document.getElementById("button").addEventListener("click", rollingForStats);
+let text = document.getElementById("text");
+function rollingForStats(){
+    console.log("Player is rolling");
+    let numberArray = [];
+    for (i = 0; i < 4; i++) {
+        let randInt = Math.floor(Math.random() * 6) + 1;
+        let addint = numberArray.push(randInt);
+    }
+    console.log(numberArray);
+    optellen(numberArray);
+}
+function optellen(array){    
+    let lowestNumber = Math.min(array[0], array[1], array[2], array[3]);
+    console.log("Laagste getal is: " + lowestNumber);
+    let highestResult = array[0] += array[1] += array[2] += array[3] -= lowestNumber;
+    console.log("Het resultaat is: " + highestResult);
+    text.innerHTML = "Gegooide getal: ";
+    text.innerHTML += highestResult;
+}
+</script>
+</body>
+</html>
